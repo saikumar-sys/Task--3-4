@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+html,body
+{
+	background: rgb(0,0,0);
+	margin: 0px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outer
+{
+	background: rgba(128,128,128,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	width: 450px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 100px;
+}
+.inner
+{
+    padding: 80px 60px;
+    padding-bottom: 70px;
+    background: rgb(0,0,0);
+	height: 300px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+#email
+{
+	font-weight: bold;
+	width: 90%;
+	height: 20px;
+	padding: 10px;
+	margin: 8px;
+	border-radius: 7px;
+	border: none;
+}
+#password
+{
+	font-weight: bold;
+	width: 90%;
+	height: 20px;
+    padding: 10px;
+	margin: 8px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	border: none;	
+}
+#login
+{
+	background: rgba(110,235,110,0.8);
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	width: 95%;
+	height: 37px;
+    padding: 5px;
+	margin: 15px 8px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+a
+{
+   color: grey;
+}
+.logo{
+	content: url('https://th.bing.com/th/id/OIP.CpBADilMg_EBksAw6k7jAgHaFj?pid=ImgDet&rs=1');
+	height: 200px;
+	width: 400px;
+}
+</style>
+<script type="text/javascript" src="app.js"></script>
+<body>
+	<div class="outer">
+		<div class="inner">
+		<div class="logo">
+
+			
+		</div>
+		<form action="homepage.html" method="post">
+			<input type="text" name="email" id="email" placeholder="Username">
+			<input type="password" name="password" id="password" placeholder="Password">
+			<input type="submit" id="login" value="Login">
+		</form>
+	        <div class="forgot_pass">
+	        	<a href="mailto:support@smartserv.io">Forgot your password?</a>
+	        </div>
+	    </div>
+    </div>
+</body>
+</html>
