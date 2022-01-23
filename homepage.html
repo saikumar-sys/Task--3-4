@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+html,body
+{
+	margin: 0px;
+	background: rgb(0,0,0);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row h4
+{
+	margin: 15px 40px;
+}
+ol
+{
+	display: flex;
+	flex-direction: row;
+}
+.total
+{
+	background: rgba(240,250,240,0.9);
+	height: 100%;
+}
+.block
+{  
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: rgb(255,255,255);
+	height: 90px;
+	width: 250px;
+	margin: 3px 10px;
+	padding: 0px 20px;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: row;
+}
+.first-block
+{
+	background: rgba(0, 150, 80,0.6);
+	width: 7px;
+	height: 100%;
+}
+.block:first-child
+{
+	margin-left: 0px;
+}
+.block:last-child
+{
+	margin-right: 20px;
+}
+.block ol
+{
+	display: flex;
+	flex-direction: column;
+}
+.text
+{
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+.text:first-child
+{
+	font-size: 20px;
+	padding-top: 10px; 
+}
+.text:last-child
+{
+	padding-top: 30px; 
+}
+.row1 h4
+{
+	margin: 20px 30px;
+}
+.row1
+{
+	display: flex;
+	flex-direction: row;
+	padding: 0px 10px;
+}
+.block1
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(255,255,255);
+	height: 300px;
+	width: 530px;
+	margin: 3px 10px;
+	margin-left: 30px;
+	padding: 0px 20px;	
+}
+#block1
+{
+	color: rgb(0, 150, 80);
+}
+#block2
+{
+	color: red;
+}
+</style>
+<body>
+	<div class="total">
+		<div class="row">
+			<h4>Company Metrics</h4>
+			<ol>
+				<div class="block">
+					<div class="first-block">
+
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text" id="block1">
+	    		    		$406,411.29
+						</div>
+						<div class="text">
+							Total Revenue
+						</div>
+					</ol>
+			    </div>
+			    <div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		620
+						</div>
+						<div class="text">
+							Total Jobs Avg
+						</div>
+					</ol>
+			    </div><div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		655
+						</div>
+						<div class="text">
+							Tickets Created
+						</div>
+					</ol>
+			    </div>
+			    <div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		735
+						</div>
+						<div class="text">
+							Tickets Scheduled
+						</div>
+					</ol>
+			    </div>
+	        </ol>
+	    </div>
+	    <div class="row">
+	    	<ol>
+	    		<div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text" id="block2">
+	    		    		$110,448.8
+						</div>
+						<div class="text">
+							Outstanding Amount
+						</div>
+					</ol>
+			    </div>
+			    <div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		105
+						</div>
+						<div class="text">
+							Memberships Sold
+						</div>
+					</ol>
+			    </div>
+			    <div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		436
+						</div>
+						<div class="text">
+							Jobs Completed
+						</div>
+					</ol>
+			    </div>
+			    <div class="block">
+					<div class="first-block">
+	    			
+	    		    </div>
+	    		    <ol>
+	    		    	<div class="text">
+	    		    		65
+						</div>
+						<div class="text">
+							Total Canceled
+						</div>
+					</ol>
+			    </div>
+	        </ol>
+	    </div>
+	    <div class="row1">
+	    	<div>
+	    		<div>
+	    			<h4>Revenue By Job Location</h4>
+	    	    </div>
+	        	<div class="block1" id="container1">
+	    	
+	            </div>
+	        </div>
+	        <div>
+	        	<div>
+	    			<h4>Revenue By Job Location</h4>
+	    	    </div>
+	            <div class="block1" id="container2">
+
+	            </div>
+	        </div>
+	    </div>
+    </div>
+    <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="bar.js"></script>
+</body>
+</html>
